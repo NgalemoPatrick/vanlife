@@ -8,9 +8,13 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <header>
+        <Link  className='site-logo' >#VanLife</Link>
+        <nav>
+          <Link to='/about' >About</Link>
+        </nav>
+      </header>
       <Routes>
-        <Route  path='/' element={< Home/>} />
         <Route  path='/about' element={< About />} />
       </Routes>
     </div>
