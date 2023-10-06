@@ -2,6 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
 // import NavBar from './components/NavBar';
+import './server'
 
 function App() {
   return (
